@@ -31,7 +31,7 @@ protocol NameHolder {
 ```
 ####2. Observe the signal property
 
-The <code>NameObserver</code> class accepts an implementation of the <code>NameHolder</code> protocol in its initializer and adds itself as an observer to the <code>nameDidChange</code> signal. Upon deinitialization it removes itself from the list with observers:
+The <code>NameObserver</code> class accepts a realization of the <code>NameHolder</code> protocol in its initializer and adds itself as an observer to the <code>nameDidChange</code> signal. Upon deinitialization it removes itself from the list with observers:
 
 ```swift
 class NameObserver {
